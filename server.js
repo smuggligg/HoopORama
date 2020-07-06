@@ -23,4 +23,4 @@ db.once('open', () => console.log("Connected to mongoose"))
 
 app.use('/', indexRouter)
 
-app.listen(process.env.POTY || 3000)
+app.listen(process.env.POTY || 5000)
